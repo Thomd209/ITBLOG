@@ -1,0 +1,61 @@
+.feedbacks-btn {
+    display: block;
+    margin-top: 2em;
+}
+
+.btn-categories {
+    display: block;
+    margin-top: 1.5em;
+}
+
+.btn-categories-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-categories-link:hover {
+    color: #fff;
+}
+
+.categories-list {
+    padding-left: 0;
+}
+
+.categories-list-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media (max-width: 550px) {
+    .categories-list-item {
+        display: block;
+        margin-left: 0;
+    }
+}
+
+.categories-list-item:first-of-type {
+    margin-left: 0;
+}
+
+.categories-list-link {
+    font: 0.9rem sans-serif;
+}
+
+.table-articles {
+    margin-top: 10px;
+}
+
+.add-article-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.add-article-link:hover {
+    color: #fff;
+}
+
+.btn-next-articles {
+    display: block;
+    margin: 1em auto;
+    font-size: 0.9em;
+}

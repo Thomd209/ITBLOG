@@ -1,0 +1,39 @@
+.categories-main-page {
+    color: #000;
+    text-decoration: none;
+}
+
+.form-update-category {
+    margin-top: 1em;
+}
+
+.empty-category {
+    color: red;
+}
+.action-categories-list {
+    margin-top: 2em;
+    padding-left: 0;
+}
+
+.action-category-title, .action-categories-list-item {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .action-category-title, .action-categories-list-item {
+        display: block;
+    }
+
+    .action-category-btn {
+        margin-top: 1em;
+    }
+}
+
+.action-category-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.action-category-link:hover {
+    color: #fff;
+}

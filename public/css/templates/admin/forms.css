@@ -1,0 +1,29 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form-group:last-child {
+    margin-top: 0;
+}
+
+.input-title, .input-summary, .input-content {
+    max-width: 70%;
+}
+
+.input-category {
+    max-width: 15em;
+}
+
+.input-date {
+    max-width: 8em;
+}
+
+.input-summary {
+    height: 5em;
+}
+
+.input-content {
+    height: 10em;
+}

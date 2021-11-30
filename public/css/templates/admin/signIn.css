@@ -1,0 +1,62 @@
+.login-form-wrapper {
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font: 1.5em sans-serif;
+}
+
+.login-form {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.label-login {
+    margin-bottom: 10px;
+    font: 1em sans-serif;
+}
+
+.label-pass {
+    margin: 10px 0 10px;
+    font: 1em sans-serif;
+}
+
+.input {
+    width: 15em;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.submit-button {
+    width: 5em;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    font: 1em sans-serif;
+    cursor: pointer;
+}
+
+.empty-fields {
+    text-align: center;
+    color: red;
+}
+
+.incorrect-data {
+    text-align: center;
+    color: red;
+}

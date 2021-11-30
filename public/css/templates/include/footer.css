@@ -1,0 +1,16 @@
+footer {
+    min-height: 50px;
+    margin-top: auto; 
+    background-color: #000;
+}
+
+.copy {
+    display: inline-block;
+    margin: 20px 20px;
+    color: #fff;
+    font: 1em sans-serif;
+}
+
+.admin-panel-link {
+    color: #fff;
+}

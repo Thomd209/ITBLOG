@@ -1,0 +1,19 @@
+{
+    "name": "thomd729/itblog",
+    "description": "News site",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Thomd729\\Itblog\\": "classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomd209",
+            "email": "thomd209@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}

@@ -1,0 +1,21 @@
+.feedbacks-wrapper {
+    margin: 1.5em 20px;
+}
+
+.wrapper-feedBack {
+    width: 25%;
+    margin: 4em 20px;
+}
+
+.feedbacks-title {
+    margin-top: 1.5em;
+}
+
+.feedBack-message {
+    height: 15em;
+}
+
+.btn-send-feedBack {
+    width: 80%;
+    margin-top: 1em;
+}

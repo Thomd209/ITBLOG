@@ -1,0 +1,26 @@
+.search-from-group {
+    display: flex;
+    margin-top: .5em;
+}
+
+.input-search:focus {
+    border: none;
+}
+
+.btn-search {
+    margin-left: .5em;
+}
+
+.suggestions-list {
+    padding-left: 0;
+}
+
+.suggestions-list:first-child {
+    margin-top: 0px;
+}
+
+.suggestion {
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: 1em;
+}

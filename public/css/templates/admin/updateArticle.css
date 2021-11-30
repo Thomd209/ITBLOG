@@ -1,0 +1,17 @@
+.title-update {
+    margin-top: 1em;
+    color: #000;
+}
+
+.update-image-explanation {
+    display: block;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.update-image {
+    display: block;
+    min-width: 30%;
+    height: 15em;
+    margin-top: 10px;
+}

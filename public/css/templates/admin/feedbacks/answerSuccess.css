@@ -1,0 +1,15 @@
+.answer-success-wrapper {
+    margin-top: 5em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.success-link, .success-message {
+    text-align: center;
+}
+
+.success-link {
+    color: #000;
+    text-decoration: none;
+}

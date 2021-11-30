@@ -1,0 +1,109 @@
+.message-btn {
+    display: block;
+    margin: 3em 0 1em;
+}
+
+.feedback-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.feedback-link:hover {
+    color: #fff;
+}
+
+.main-page-admin-title {
+    margin-top: 1em;
+}
+
+.main-page-admin-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.categories-main-page-title {
+    margin-top: 1em;
+}
+
+.articles {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+@media (max-width: 768px) {
+    .articles {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.article {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+@media (min-width: 769px) {
+    .article:nth-of-type(1), .article:nth-of-type(2) {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .article:nth-of-type(1) {
+        margin-top: 0;
+    }
+}
+
+.article-title {
+    width: 70%;
+    height: 2em;
+    font-size: 1.1em;
+
+}
+
+@media (max-width: 768px) {
+    .article-title {
+        width: 80%;
+        height: 3.75em;
+    }
+}
+
+.article-image {
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .article-image {
+        width: 100%;
+        height: 25em;
+        margin: 10px 0;
+    }
+}
+
+.article-date {
+    display: block;
+    margin-top: 1em;
+    font: 1.25em sans-serif;
+}
+
+.article-summary {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
+.btn-article {
+    width: 7.5em;
+    margin-top: 1em;
+}
+
+.page-article-link {
+    color: #fff;
+    text-decoration: none;
+    font: 1.25em 'Arial';
+}

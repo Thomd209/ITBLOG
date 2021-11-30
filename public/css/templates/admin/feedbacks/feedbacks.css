@@ -1,0 +1,34 @@
+.feedback {
+    margin-top: 1em;
+}
+
+.message-status {
+    display: block;
+    color: #000;
+    font-weight: bold;
+}
+
+.message-text {
+    display: block;
+}
+
+.btn-answer {
+    display: block;
+    margin-top: 1em;
+}
+
+.answer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.answer-link:hover {
+    color: #fff;
+}
+
+.feedback-separator {
+    width: 50%;
+    height: .1em;
+    margin-top: 1em;
+    background-color: #000;
+}
