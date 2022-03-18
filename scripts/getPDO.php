@@ -2,4 +2,5 @@
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/DB.php');
 
-$pdo = DB::getConn();
+$DB = DB::getInstance();
+$pdo = $DB->getConn();

@@ -1,0 +1,10 @@
+Ignore all logs
+*.log
+Ignore vendor
+/vendor/
+Ignore images
+*.png
+Ignore text files
+*.txt
+Ignore compose.phar
+composer.phar
